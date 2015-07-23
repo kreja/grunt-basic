@@ -1,3 +1,5 @@
+根据 http://yujiangshui.com/grunt-basic-tutorial 的示例项目更改而成
+
 gruntxx
 =======
 
