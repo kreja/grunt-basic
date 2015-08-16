@@ -42,8 +42,9 @@ module.exports = function(grunt) {
           pretty: true,
           expand: true,
           processors: [
-            require('autoprefixer-core')({browsers: 'last 1 version'}).postcss,
-            require('csswring').postcss
+            require('pixrem')(),
+            require('autoprefixer-core')({browsers: 'last 2 versions'}),
+            require('cssnano')()
           ]
         },
         dist: {

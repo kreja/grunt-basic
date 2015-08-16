@@ -1,0 +1,17 @@
+{
+  "name": "grunt-basic",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Kreja/grunt-basic",
+  "authors": [
+    "kaili.wkl <kellywang.ok@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/components",
+    "test",
+    "tests"
+  ]
+}
